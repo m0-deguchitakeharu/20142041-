@@ -39,10 +39,6 @@ void draw(){
   
     camera(cameraX, cameraY, 150, 0, 0, 0, 0, 0, -1);
   
-  translate(0,0,0);
-  fill(10);
-  box(100,100,1);
-  
   background(255);
   
   if(keyPressed){
